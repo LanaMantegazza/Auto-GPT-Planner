@@ -10,5 +10,8 @@ A very simple and hacky logger I bodged together in like an hour.
 ## output_sample.log
 An incomplete extract of the output from the planner.py file to the console.
 
+## task_planner_prompt.txt
+Just realising now that I forgot to add this to the repo before I left, I will add it when I get home tonight. Sorry 🙃
+
 # Version
 The current state of this repository is simply a code dump of the code I've been using to prototype the idea. A forked repository contributing to the Auto-GPT should follow shortly.
