@@ -1,0 +1,891 @@
+...
+
+---------------------------------------------------------------- Sub-Action Complete ----------------------------------------------------------------
+[L.a.N.A.] Completed evaluating subtasks
+---------------------------------------------------------------- Sub-Action Complete ----------------------------------------------------------------
+[L.a.N.A.] Task can be completed with the following subtasks: 
+               tasks:
+                   tasks[0]: 
+                       task_name: Unpack equipment
+                       task_description: Unpack the network equipment such as routers, switches, and firewalls from their boxes
+                       is_atomic: True
+
+                   tasks[1]: 
+                       task_name: Mount equipment
+                       task_description: Mount the network equipment on the designated areas such as walls or racks
+                       is_atomic: True
+
+                   tasks[2]: 
+                       task_name: Connect power cords
+                       task_description: Connect the power cords to the network equipment
+                       is_atomic: True
+
+                   tasks[3]: 
+                       task_name: Connect cables
+                       task_description: Connect the cables to the network equipment and run them to their designated areas
+                       is_atomic: True
+
+                   tasks[4]: 
+                       task_name: Configure network equipment
+                       task_description: Configure the network equipment with appropriate settings based on the network architecture
+                       is_atomic: False
+                           tasks: 
+                               tasks:
+                                   tasks[0]: 
+                                       task_name: Gather network architecture information
+                                       task_description: Collect information regarding the network architecture including types of devices, IP ranges, network topology, VLANs, etc.
+                                       is_atomic: True
+
+                                   tasks[1]: 
+                                       task_name: Connect to network equipment
+                                       task_description: Establish connection with each network device using appropriate protocols and authentication credentials such as SSH, Telnet, SNMP, etc.
+                                       is_atomic: True
+
+                                   tasks[2]: 
+                                       task_name: Set device hostname
+                                       task_description: Assign a unique name to the network device based on its location, role, or any other appropriate parameter.
+                                       is_atomic: True
+
+                                   tasks[3]: 
+                                       task_name: Configure interface settings
+                                       task_description: Define the interface parameters such as IP address, subnet mask, default gateway, speed, duplex, etc.
+                                       is_atomic: True
+
+                                   tasks[4]: 
+                                       task_name: Configure routing protocols
+                                       task_description: Configure routing protocols such as OSPF, BGP, EIGRP, etc., and related parameters such as route summarization, route redistribution, metric weights, etc., based on the network architecture and requirements.
+                                       is_atomic: True
+
+                                   tasks[5]: 
+                                       task_name: Configure VLANs and trunking
+                                       task_description: Create, modify, or delete VLANs on the switches, and configure the trunking protocols such as 802.1Q or ISL on the trunk links.
+                                       is_atomic: True
+
+                                   tasks[6]: 
+                                       task_name: Configure security features
+                                       task_description: Configure security features such as access control lists (ACLs), firewalls, VPN, NAT, QoS, etc., to enforce network policies and protect the network from unauthorized access, attacks, or traffic.
+                                       is_atomic: True
+
+                                   tasks[7]: 
+                                       task_name: Generate configuration reports
+                                       task_description: Generate and save configuration reports for each network device, documenting the current device settings and any changes that were made.
+                                       is_atomic: True
+
+                   tasks[5]: 
+                       task_name: Test network connection
+                       task_description: Test the network connection to ensure that the equipment is working as expected
+                       is_atomic: True
+
+[L.a.N.A.] Completed planning task
+---------------------------------------------------------------- Sub-Action Complete ----------------------------------------------------------------
+[L.a.N.A.] Completed evaluating subtasks
+---------------------------------------------------------------- Sub-Action Complete ----------------------------------------------------------------
+[L.a.N.A.] Task can be completed with the following subtasks: 
+               tasks:
+                   tasks[0]: 
+                       task_name: Plan the network architecture
+                       task_description: Survey the new buildings and facilities, and plan the network architecture based on the required communication services, number of users and devices, and the distance between buildings that will be connected.
+                       is_atomic: True
+
+                   tasks[1]: 
+                       task_name: Prepare the building sites
+                       task_description: Survey the area where the communication network infrastructure will be installed, clear the site of any debris, and prepare the site for the installation of cables and other infrastructure.
+                       is_atomic: True
+
+                   tasks[2]: 
+                       task_name: Install cables
+                       task_description: Install the fiber-optic cables that will connect the new buildings and facilities. This includes digging trenches, laying the cables, and securing them to avoid damage.
+                       is_atomic: False
+                           tasks: 
+                               tasks:
+                                   tasks[0]: 
+                                       task_name: Inspect the site
+                                       task_description: Visit the site where fiber optic cables are to be installed to get an idea of the terrain, soil type, and other conditions that may affect the cable installation. Consult with the building owner or manager to confirm the locations of the buildings that must be connected.
+                                       is_atomic: True
+
+                                   tasks[1]: 
+                                       task_name: Design the cable path
+                                       task_description: Plan the path of the cables from one building to the other, taking into account the most efficient route that may avoid obstacles, terrain changes, and existing utility lines.
+                                       is_atomic: True
+
+                                   tasks[2]: 
+                                       task_name: Obtain necessary permits
+                                       task_description: Contact the appropriate local and national government agencies to secure any permits, licenses or permissions necessary to carry out your installation plan, if required.
+                                       is_atomic: True
+
+                                   tasks[3]: 
+                                       task_name: Mark dig locations
+                                       task_description: Mark with flags or paint the locations where the digging is to take place on the planned route of the cable from one building to the other.
+                                       is_atomic: True
+
+                                   tasks[4]: 
+                                       task_name: Dig trenches
+                                       task_description: Use an excavator or shovel to dig trenches along the planned route of the cable from one building to the other, ensuring that the trenches are deep and wide enough to accommodate the cable and any protective coating or equipment. Ensure workers are properly dressed with personal protective gear and equipment.
+                                       is_atomic: True
+
+                                   tasks[5]: 
+                                       task_name: Install conduit
+                                       task_description: Install conduit pipes into the trenches before laying the cables. Match conduit pipes to cable size and avoid sharp bends in the conduit, which can damage cable or increase signal loss. 
+                                       is_atomic: True
+
+                                   tasks[6]: 
+                                       task_name: Lay cables
+                                       task_description:  Carefully run cables through conduit pipes. Attach winch cable to the end of the new cable and attach to the drum of the winch machine. Use the winch to pull the cable through the conduit. Avoid bending or kinking the fiber optic cables, as this can damage them.
+                                       is_atomic: True
+
+                                   tasks[7]: 
+                                       task_name: Connect cables
+                                       task_description: Connect the ends of each cable to the building's main Internet router and use a fiber optic tester to test signal strength and quality. Repeat this process until all buildings are connected to the Internet through the new fiber optic network.
+                                       is_atomic: True
+
+                                   tasks[8]: 
+                                       task_name: Secure cables
+                                       task_description: Secure the cables and other equipment to prevent damage or unauthorized access. Label the cables for easy identification, and properly terminate all cables to avoid transmission losses.
+                                       is_atomic: True
+
+                   tasks[3]: 
+                       task_name: Install network equipment
+                       task_description: Install the network equipment such as routers, switches, and firewalls that are required to connect the buildings and facilities to the communication network.
+                       is_atomic: False
+                           tasks: 
+                               tasks:
+                                   tasks[0]: 
+                                       task_name: Unpack equipment
+                                       task_description: Unpack the network equipment such as routers, switches, and firewalls from their boxes
+                                       is_atomic: True
+
+                                   tasks[1]: 
+                                       task_name: Mount equipment
+                                       task_description: Mount the network equipment on the designated areas such as walls or racks
+                                       is_atomic: True
+
+                                   tasks[2]: 
+                                       task_name: Connect power cords
+                                       task_description: Connect the power cords to the network equipment
+                                       is_atomic: True
+
+                                   tasks[3]: 
+                                       task_name: Connect cables
+                                       task_description: Connect the cables to the network equipment and run them to their designated areas
+                                       is_atomic: True
+
+                                   tasks[4]: 
+                                       task_name: Configure network equipment
+                                       task_description: Configure the network equipment with appropriate settings based on the network architecture
+                                       is_atomic: False
+                                           tasks: 
+                                               tasks:
+                                                   tasks[0]: 
+                                                       task_name: Gather network architecture information
+                                                       task_description: Collect information regarding the network architecture including types of devices, IP ranges, network topology, VLANs, etc.
+                                                       is_atomic: True
+
+                                                   tasks[1]: 
+                                                       task_name: Connect to network equipment
+                                                       task_description: Establish connection with each network device using appropriate protocols and authentication credentials such as SSH, Telnet, SNMP, etc.
+                                                       is_atomic: True
+
+                                                   tasks[2]: 
+                                                       task_name: Set device hostname
+                                                       task_description: Assign a unique name to the network device based on its location, role, or any other appropriate parameter.
+                                                       is_atomic: True
+
+                                                   tasks[3]: 
+                                                       task_name: Configure interface settings
+                                                       task_description: Define the interface parameters such as IP address, subnet mask, default gateway, speed, duplex, etc.
+                                                       is_atomic: True
+
+                                                   tasks[4]: 
+                                                       task_name: Configure routing protocols
+                                                       task_description: Configure routing protocols such as OSPF, BGP, EIGRP, etc., and related parameters such as route summarization, route redistribution, metric weights, etc., based on the network architecture and requirements.
+                                                       is_atomic: True
+
+                                                   tasks[5]: 
+                                                       task_name: Configure VLANs and trunking
+                                                       task_description: Create, modify, or delete VLANs on the switches, and configure the trunking protocols such as 802.1Q or ISL on the trunk links.
+                                                       is_atomic: True
+
+                                                   tasks[6]: 
+                                                       task_name: Configure security features
+                                                       task_description: Configure security features such as access control lists (ACLs), firewalls, VPN, NAT, QoS, etc., to enforce network policies and protect the network from unauthorized access, attacks, or traffic.
+                                                       is_atomic: True
+
+                                                   tasks[7]: 
+                                                       task_name: Generate configuration reports
+                                                       task_description: Generate and save configuration reports for each network device, documenting the current device settings and any changes that were made.
+                                                       is_atomic: True
+
+                                   tasks[5]: 
+                                       task_name: Test network connection
+                                       task_description: Test the network connection to ensure that the equipment is working as expected
+                                       is_atomic: True
+
+                   tasks[4]: 
+                       task_name: Connect network equipment
+                       task_description: Connect the network equipment to the fiber-optic cables that have been installed.
+                       is_atomic: True
+
+                   tasks[5]: 
+                       task_name: Configure the network
+                       task_description: Configure the network equipment to ensure that it is optimized for the type of communication services that will be provided, and that it is secure against unauthorized access.
+                       is_atomic: True
+
+                   tasks[6]: 
+                       task_name: Test the network
+                       task_description: Test the communication network to ensure that it is functioning as expected, and that it is able to support the required communication services with the expected speed and reliability.
+                       is_atomic: True
+
+[L.a.N.A.] Completed planning task
+---------------------------------------------------------------- Sub-Action Complete ----------------------------------------------------------------
+[L.a.N.A.] Completed evaluating subtasks
+---------------------------------------------------------------- Sub-Action Complete ----------------------------------------------------------------
+[L.a.N.A.] Task can be completed with the following subtasks: 
+               tasks:
+                   tasks[0]: 
+                       task_name: Assess infrastructure needs
+                       task_description: Evaluate the area where new buildings and facilities need to be constructed to identify the necessary infrastructure required (e.g. power sources, water systems, communication networks).
+                       is_atomic: True
+
+                   tasks[1]: 
+                       task_name: Design infrastructure layout
+                       task_description: Develop a plan for the infrastructure layout that will support the new buildings and facilities.
+                       is_atomic: True
+
+                   tasks[2]: 
+                       task_name: Install power source infrastructure
+                       task_description: Build and install the required electrical infrastructure (e.g. transformers, switchgear, electrical service cabinets) to provide power to new buildings and facilities. Test the infrastructure to ensure it is functioning as expected.
+                       is_atomic: False
+                           tasks: 
+                               tasks:
+                                   tasks[0]: 
+                                       task_name: Evaluate site requirements
+                                       task_description: Assess the site conditions and requirements for the installation of the electrical infrastructure, such as power demand, location of buildings and facilities, and other factors that may affect the installation process
+                                       is_atomic: True
+
+                                   tasks[1]: 
+                                       task_name: Design electrical infrastructure
+                                       task_description: Based on site requirements, design the electrical infrastructure including transformers, switchgear, and electrical service cabinets that are required to provide power to new buildings and facilities
+                                       is_atomic: True
+
+                                   tasks[2]: 
+                                       task_name: Procure materials and equipment
+                                       task_description: Determine the required materials and equipment and procure them from suppliers who offer competitive prices, good quality materials, and timely delivery
+                                       is_atomic: True
+
+                                   tasks[3]: 
+                                       task_name: Prepare site for installation
+                                       task_description: Prepare the site for the installation of electrical infrastructure including excavation, digging trenches, and laying foundations, if necessary
+                                       is_atomic: True
+
+                                   tasks[4]: 
+                                       task_name: Install transformers and switchgear
+                                       task_description: Install the transformers and switchgear in the designated locations to help control the power distribution to new buildings and facilities
+                                       is_atomic: True
+
+                                   tasks[5]: 
+                                       task_name: Install electrical service cabinets
+                                       task_description: Install the electrical service cabinets in the areas that require power, which may include administrative and storage buildings, security gates, and other infrastructural features around the site
+                                       is_atomic: True
+
+                                   tasks[6]: 
+                                       task_name: Test the infrastructure
+                                       task_description: Perform testing of the entire infrastructure to ensure proper functionality and to identify any faults or areas that may require further attention
+                                       is_atomic: True
+
+                   tasks[3]: 
+                       task_name: Install water infrastructure
+                       task_description: Build and install the necessary plumbing infrastructure (e.g. water mains, fire hydrants, water meters) to provide water to new buildings and facilities. Test the infrastructure to ensure it is functioning as expected.
+                       is_atomic: False
+                           tasks: 
+                               tasks:
+                                   tasks[0]: 
+                                       task_name: Research Requirements
+                                       task_description: Research the necessary plumbing infrastructure needed to provide water to new buildings and facilities. This includes determining the types of water mains, fire hydrants, and water meters needed.
+                                       is_atomic: True
+
+                                   tasks[1]: 
+                                       task_name: Create a Plan
+                                       task_description: Develop a detailed plan for the installation of the water infrastructure. This includes determining the location of the water mains, fire hydrants, and water meters, as well as coordinating with other relevant parties.
+                                       is_atomic: True
+
+                                   tasks[2]: 
+                                       task_name: Acquire Materials
+                                       task_description: Acquire all necessary materials for the installation of the water infrastructure. This includes purchasing the water mains, fire hydrants, and water meters, as well as any other associated materials.
+                                       is_atomic: True
+
+                                   tasks[3]: 
+                                       task_name: Excavate the Area
+                                       task_description: Excavate the area where the water infrastructure will be installed. This includes digging trenches for the water mains and any other necessary excavation work.
+                                       is_atomic: True
+
+                                   tasks[4]: 
+                                       task_name: Install the Water Mains
+                                       task_description: Install the water mains according to the plan developed in task 2. This includes laying the pipes and connecting them to the water source.
+                                       is_atomic: True
+
+                                   tasks[5]: 
+                                       task_name: Install the Fire Hydrants
+                                       task_description: Install the fire hydrants according to the plan developed in task 2. This includes connecting them to the water mains and testing their functionality.
+                                       is_atomic: True
+
+                                   tasks[6]: 
+                                       task_name: Install the Water Meters
+                                       task_description: Install the water meters according to the plan developed in task 2. This includes connecting them to the water mains and testing them for accuracy and functionality.
+                                       is_atomic: True
+
+                                   tasks[7]: 
+                                       task_name: Pressure Test the System
+                                       task_description: Conduct a pressure test of the entire water system to ensure there are no leaks or other issues. This includes testing the water mains, fire hydrants, and water meters.
+                                       is_atomic: True
+
+                                   tasks[8]: 
+                                       task_name: System Activation
+                                       task_description: Activate the water system and test to ensure that water is being provided to the new buildings and facilities as expected.
+                                       is_atomic: True
+
+                   tasks[4]: 
+                       task_name: Install communication network infrastructure
+                       task_description: Build and install the required network infrastructure (e.g. fiber-optic cables, wifi routers) to provide communication services to new buildings and facilities. Test the infrastructure to ensure it is functioning as expected.
+                       is_atomic: False
+                           tasks: 
+                               tasks:
+                                   tasks[0]: 
+                                       task_name: Plan the network architecture
+                                       task_description: Survey the new buildings and facilities, and plan the network architecture based on the required communication services, number of users and devices, and the distance between buildings that will be connected.
+                                       is_atomic: True
+
+                                   tasks[1]: 
+                                       task_name: Prepare the building sites
+                                       task_description: Survey the area where the communication network infrastructure will be installed, clear the site of any debris, and prepare the site for the installation of cables and other infrastructure.
+                                       is_atomic: True
+
+                                   tasks[2]: 
+                                       task_name: Install cables
+                                       task_description: Install the fiber-optic cables that will connect the new buildings and facilities. This includes digging trenches, laying the cables, and securing them to avoid damage.
+                                       is_atomic: False
+                                           tasks: 
+                                               tasks:
+                                                   tasks[0]: 
+                                                       task_name: Inspect the site
+                                                       task_description: Visit the site where fiber optic cables are to be installed to get an idea of the terrain, soil type, and other conditions that may affect the cable installation. Consult with the building owner or manager to confirm the locations of the buildings that must be connected.
+                                                       is_atomic: True
+
+                                                   tasks[1]: 
+                                                       task_name: Design the cable path
+                                                       task_description: Plan the path of the cables from one building to the other, taking into account the most efficient route that may avoid obstacles, terrain changes, and existing utility lines.
+                                                       is_atomic: True
+
+                                                   tasks[2]: 
+                                                       task_name: Obtain necessary permits
+                                                       task_description: Contact the appropriate local and national government agencies to secure any permits, licenses or permissions necessary to carry out your installation plan, if required.
+                                                       is_atomic: True
+
+                                                   tasks[3]: 
+                                                       task_name: Mark dig locations
+                                                       task_description: Mark with flags or paint the locations where the digging is to take place on the planned route of the cable from one building to the other.
+                                                       is_atomic: True
+
+                                                   tasks[4]: 
+                                                       task_name: Dig trenches
+                                                       task_description: Use an excavator or shovel to dig trenches along the planned route of the cable from one building to the other, ensuring that the trenches are deep and wide enough to accommodate the cable and any protective coating or equipment. Ensure workers are properly dressed with personal protective gear and equipment.
+                                                       is_atomic: True
+
+                                                   tasks[5]: 
+                                                       task_name: Install conduit
+                                                       task_description: Install conduit pipes into the trenches before laying the cables. Match conduit pipes to cable size and avoid sharp bends in the conduit, which can damage cable or increase signal loss. 
+                                                       is_atomic: True
+
+                                                   tasks[6]: 
+                                                       task_name: Lay cables
+                                                       task_description:  Carefully run cables through conduit pipes. Attach winch cable to the end of the new cable and attach to the drum of the winch machine. Use the winch to pull the cable through the conduit. Avoid bending or kinking the fiber optic cables, as this can damage them.
+                                                       is_atomic: True
+
+                                                   tasks[7]: 
+                                                       task_name: Connect cables
+                                                       task_description: Connect the ends of each cable to the building's main Internet router and use a fiber optic tester to test signal strength and quality. Repeat this process until all buildings are connected to the Internet through the new fiber optic network.
+                                                       is_atomic: True
+
+                                                   tasks[8]: 
+                                                       task_name: Secure cables
+                                                       task_description: Secure the cables and other equipment to prevent damage or unauthorized access. Label the cables for easy identification, and properly terminate all cables to avoid transmission losses.
+                                                       is_atomic: True
+
+                                   tasks[3]: 
+                                       task_name: Install network equipment
+                                       task_description: Install the network equipment such as routers, switches, and firewalls that are required to connect the buildings and facilities to the communication network.
+                                       is_atomic: False
+                                           tasks: 
+                                               tasks:
+                                                   tasks[0]: 
+                                                       task_name: Unpack equipment
+                                                       task_description: Unpack the network equipment such as routers, switches, and firewalls from their boxes
+                                                       is_atomic: True
+
+                                                   tasks[1]: 
+                                                       task_name: Mount equipment
+                                                       task_description: Mount the network equipment on the designated areas such as walls or racks
+                                                       is_atomic: True
+
+                                                   tasks[2]: 
+                                                       task_name: Connect power cords
+                                                       task_description: Connect the power cords to the network equipment
+                                                       is_atomic: True
+
+                                                   tasks[3]: 
+                                                       task_name: Connect cables
+                                                       task_description: Connect the cables to the network equipment and run them to their designated areas
+                                                       is_atomic: True
+
+                                                   tasks[4]: 
+                                                       task_name: Configure network equipment
+                                                       task_description: Configure the network equipment with appropriate settings based on the network architecture
+                                                       is_atomic: False
+                                                           tasks: 
+                                                               tasks:
+                                                                   tasks[0]: 
+                                                                       task_name: Gather network architecture information
+                                                                       task_description: Collect information regarding the network architecture including types of devices, IP ranges, network topology, VLANs, etc.
+                                                                       is_atomic: True
+
+                                                                   tasks[1]: 
+                                                                       task_name: Connect to network equipment
+                                                                       task_description: Establish connection with each network device using appropriate protocols and authentication credentials such as SSH, Telnet, SNMP, etc.
+                                                                       is_atomic: True
+
+                                                                   tasks[2]: 
+                                                                       task_name: Set device hostname
+                                                                       task_description: Assign a unique name to the network device based on its location, role, or any other appropriate parameter.
+                                                                       is_atomic: True
+
+                                                                   tasks[3]: 
+                                                                       task_name: Configure interface settings
+                                                                       task_description: Define the interface parameters such as IP address, subnet mask, default gateway, speed, duplex, etc.
+                                                                       is_atomic: True
+
+                                                                   tasks[4]: 
+                                                                       task_name: Configure routing protocols
+                                                                       task_description: Configure routing protocols such as OSPF, BGP, EIGRP, etc., and related parameters such as route summarization, route redistribution, metric weights, etc., based on the network architecture and requirements.
+                                                                       is_atomic: True
+
+                                                                   tasks[5]: 
+                                                                       task_name: Configure VLANs and trunking
+                                                                       task_description: Create, modify, or delete VLANs on the switches, and configure the trunking protocols such as 802.1Q or ISL on the trunk links.
+                                                                       is_atomic: True
+
+                                                                   tasks[6]: 
+                                                                       task_name: Configure security features
+                                                                       task_description: Configure security features such as access control lists (ACLs), firewalls, VPN, NAT, QoS, etc., to enforce network policies and protect the network from unauthorized access, attacks, or traffic.
+                                                                       is_atomic: True
+
+                                                                   tasks[7]: 
+                                                                       task_name: Generate configuration reports
+                                                                       task_description: Generate and save configuration reports for each network device, documenting the current device settings and any changes that were made.
+                                                                       is_atomic: True
+
+                                                   tasks[5]: 
+                                                       task_name: Test network connection
+                                                       task_description: Test the network connection to ensure that the equipment is working as expected
+                                                       is_atomic: True
+
+                                   tasks[4]: 
+                                       task_name: Connect network equipment
+                                       task_description: Connect the network equipment to the fiber-optic cables that have been installed.
+                                       is_atomic: True
+
+                                   tasks[5]: 
+                                       task_name: Configure the network
+                                       task_description: Configure the network equipment to ensure that it is optimized for the type of communication services that will be provided, and that it is secure against unauthorized access.
+                                       is_atomic: True
+
+                                   tasks[6]: 
+                                       task_name: Test the network
+                                       task_description: Test the communication network to ensure that it is functioning as expected, and that it is able to support the required communication services with the expected speed and reliability.
+                                       is_atomic: True
+
+[L.a.N.A.] Completed planning task
+---------------------------------------------------------------- Sub-Action Complete ----------------------------------------------------------------
+
+---------------------------------------------------------------- Starting Sub-Action ----------------------------------------------------------------
+[L.a.N.A.] Planning task: Colonize Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Expand and develop the Martian settlement: Increase the size and capabilities of the Martian settlement, including the development of agriculture, industry, and scientific research capabilities...
+             └>Evaluating subtasks......
+             └>Planning task: Develop agriculture capabilities: Based on site survey results, implement new farming systems and techniques to improve food production and sustainability on Mars...
+------------------------------------------------------------------------------------------------------------------------------------------------------
+[L.a.N.A.] Asking Task Splitter AI to plan task......
+[L.a.N.A.] AI returned the following subtasks: 
+               tasks:
+                   tasks[0]: 
+                       task_name: Conduct a site survey
+                       task_description: Locate suitable sites for agriculture on Mars and assess their viability based on factors such as topography, soil composition, and solar radiation
+                       is_atomic: True
+
+                   tasks[1]: 
+                       task_name: Identify agriculture capabilities for Mars
+                       task_description: Research and identify farming systems and techniques suited for Mars, considering factors such as low gravity, low atmospheric pressure, and available resources
+                       is_atomic: True
+
+                   tasks[2]: 
+                       task_name: Develop farming technology for Mars
+                       task_description: Develop and test technology such as agricultural domes, automated farming equipment, and hydroponic systems that are tailored for Mars
+                       is_atomic: False
+
+                   tasks[3]: 
+                       task_name: Train personnel to use farming tools and systems
+                       task_description: Provide training to personnel who will be responsible for operating and maintaining the agricultural systems on Mars
+                       is_atomic: False
+
+                   tasks[4]: 
+                       task_name: Deploy and test farming systems on Mars
+                       task_description: Deploy the agricultural systems to the identified sites on Mars, and conduct testing and optimization to ensure good performance under Martian conditions
+                       is_atomic: False
+
+                   tasks[5]: 
+                       task_name: Monitor and maintain the farming systems
+                       task_description: Establish monitoring systems for the farming facilities, and conduct regular maintenance and repair to ensure optimal performance and longevity
+                       is_atomic: False
+
+---------------------------------------------------------------- Starting Sub-Action ----------------------------------------------------------------
+[L.a.N.A.] Planning task: Colonize Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Expand and develop the Martian settlement: Increase the size and capabilities of the Martian settlement, including the development of agriculture, industry, and scientific research capabilities...
+             └>Evaluating subtasks......
+             └>Planning task: Develop agriculture capabilities: Based on site survey results, implement new farming systems and techniques to improve food production and sustainability on Mars...
+             └>Evaluating subtasks......
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------- Starting Sub-Action ----------------------------------------------------------------
+[L.a.N.A.] Planning task: Colonize Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Expand and develop the Martian settlement: Increase the size and capabilities of the Martian settlement, including the development of agriculture, industry, and scientific research capabilities...
+             └>Evaluating subtasks......
+             └>Planning task: Develop agriculture capabilities: Based on site survey results, implement new farming systems and techniques to improve food production and sustainability on Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Develop farming technology for Mars: Develop and test technology such as agricultural domes, automated farming equipment, and hydroponic systems that are tailored for Mars...
+------------------------------------------------------------------------------------------------------------------------------------------------------
+[L.a.N.A.] Asking Task Splitter AI to plan task......
+[L.a.N.A.] AI returned the following subtasks: 
+               tasks:
+                   tasks[0]: 
+                       task_name: Research Mars' agricultural conditions
+                       task_description: Gather information about the environmental conditions of Mars and determine the feasibility of farming on Mars
+                       is_atomic: True
+
+                   tasks[1]: 
+                       task_name: Design agricultural domes
+                       task_description: Design and create prototypes of dome structures suitable for agriculture on Mars that can maintain a habitable environment for crops
+                       is_atomic: False
+
+                   tasks[2]: 
+                       task_name: Develop an automated farming system
+                       task_description: Create and test a system of automated farming equipment for use in the agricultural domes on Mars
+                       is_atomic: False
+
+                   tasks[3]: 
+                       task_name: Design hydroponic systems for Martian soil conditions
+                       task_description: Develop and test hydroponic systems that are adapted for the harsh environmental conditions and soil composition of Mars
+                       is_atomic: True
+
+                   tasks[4]: 
+                       task_name: Adapt farming technology for Martian gravity levels
+                       task_description: Test and adjust technology to account for the low levels of gravity on Mars
+                       is_atomic: True
+
+                   tasks[5]: 
+                       task_name: Test all farming technology in simulated Martian environments
+                       task_description: Conduct rigorous testing of all equipment and systems in simulated Martian environments to ensure they are functional and effective under Mars-like conditions.
+                       is_atomic: False
+
+---------------------------------------------------------------- Starting Sub-Action ----------------------------------------------------------------
+[L.a.N.A.] Planning task: Colonize Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Expand and develop the Martian settlement: Increase the size and capabilities of the Martian settlement, including the development of agriculture, industry, and scientific research capabilities...
+             └>Evaluating subtasks......
+             └>Planning task: Develop agriculture capabilities: Based on site survey results, implement new farming systems and techniques to improve food production and sustainability on Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Develop farming technology for Mars: Develop and test technology such as agricultural domes, automated farming equipment, and hydroponic systems that are tailored for Mars...
+             └>Evaluating subtasks......
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------- Starting Sub-Action ----------------------------------------------------------------
+[L.a.N.A.] Planning task: Colonize Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Expand and develop the Martian settlement: Increase the size and capabilities of the Martian settlement, including the development of agriculture, industry, and scientific research capabilities...
+             └>Evaluating subtasks......
+             └>Planning task: Develop agriculture capabilities: Based on site survey results, implement new farming systems and techniques to improve food production and sustainability on Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Develop farming technology for Mars: Develop and test technology such as agricultural domes, automated farming equipment, and hydroponic systems that are tailored for Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Design agricultural domes: Design and create prototypes of dome structures suitable for agriculture on Mars that can maintain a habitable environment for crops...
+------------------------------------------------------------------------------------------------------------------------------------------------------
+[L.a.N.A.] Asking Task Splitter AI to plan task......
+[L.a.N.A.] AI returned the following subtasks: 
+               tasks:
+                   tasks[0]: 
+                       task_name: Research Martian agriculture
+                       task_description: Research the current state of farming on Mars, including the limitations and opportunities presented by the Martian environment
+                       is_atomic: True
+
+                   tasks[1]: 
+                       task_name: Design dome structure
+                       task_description: Using the knowledge gained from the research on Martian agriculture, design a dome structure suitable for growing crops that can maintain a habitable environment
+                       is_atomic: True
+
+                   tasks[2]: 
+                       task_name: Select materials
+                       task_description: Based on the design of the dome structure, research and select materials that can be used to construct the dome, taking into account the harsh Martian environment
+                       is_atomic: True
+
+                   tasks[3]: 
+                       task_name: Prototype construction planning
+                       task_description: Plan the construction of a prototype dome, including the required machinery and equipment and the personnel needed for the construction
+                       is_atomic: True
+
+                   tasks[4]: 
+                       task_name: Prototype dome construction
+                       task_description: Construct a prototype dome structure using the previously selected materials and the plan developed in the previous step
+                       is_atomic: True
+
+                   tasks[5]: 
+                       task_name: Habitat environment testing
+                       task_description: Test and evaluate the habitable environment created by the prototype dome structure, making adjustments as needed
+                       is_atomic: True
+
+                   tasks[6]: 
+                       task_name: Crop selection and planting
+                       task_description: Select crops that can be grown in the Martian environment and plant these crops in the prototype dome structure
+                       is_atomic: True
+
+                   tasks[7]: 
+                       task_name: Crop growth and monitoring
+                       task_description: Monitor the growth of the crops in the dome structure and make any necessary adjustments to ensure optimal growth and yield
+                       is_atomic: True
+
+---------------------------------------------------------------- Starting Sub-Action ----------------------------------------------------------------
+[L.a.N.A.] Planning task: Colonize Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Expand and develop the Martian settlement: Increase the size and capabilities of the Martian settlement, including the development of agriculture, industry, and scientific research capabilities...
+             └>Evaluating subtasks......
+             └>Planning task: Develop agriculture capabilities: Based on site survey results, implement new farming systems and techniques to improve food production and sustainability on Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Develop farming technology for Mars: Develop and test technology such as agricultural domes, automated farming equipment, and hydroponic systems that are tailored for Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Design agricultural domes: Design and create prototypes of dome structures suitable for agriculture on Mars that can maintain a habitable environment for crops...
+             └>Evaluating subtasks......
+------------------------------------------------------------------------------------------------------------------------------------------------------
+[L.a.N.A.] Completed evaluating subtasks
+---------------------------------------------------------------- Sub-Action Complete ----------------------------------------------------------------
+[L.a.N.A.] Task can be completed with the following subtasks: 
+               tasks:
+                   tasks[0]: 
+                       task_name: Research Martian agriculture
+                       task_description: Research the current state of farming on Mars, including the limitations and opportunities presented by the Martian environment
+                       is_atomic: True
+
+                   tasks[1]: 
+                       task_name: Design dome structure
+                       task_description: Using the knowledge gained from the research on Martian agriculture, design a dome structure suitable for growing crops that can maintain a habitable environment
+                       is_atomic: True
+
+                   tasks[2]: 
+                       task_name: Select materials
+                       task_description: Based on the design of the dome structure, research and select materials that can be used to construct the dome, taking into account the harsh Martian environment
+                       is_atomic: True
+
+                   tasks[3]: 
+                       task_name: Prototype construction planning
+                       task_description: Plan the construction of a prototype dome, including the required machinery and equipment and the personnel needed for the construction
+                       is_atomic: True
+
+                   tasks[4]: 
+                       task_name: Prototype dome construction
+                       task_description: Construct a prototype dome structure using the previously selected materials and the plan developed in the previous step
+                       is_atomic: True
+
+                   tasks[5]: 
+                       task_name: Habitat environment testing
+                       task_description: Test and evaluate the habitable environment created by the prototype dome structure, making adjustments as needed
+                       is_atomic: True
+
+                   tasks[6]: 
+                       task_name: Crop selection and planting
+                       task_description: Select crops that can be grown in the Martian environment and plant these crops in the prototype dome structure
+                       is_atomic: True
+
+                   tasks[7]: 
+                       task_name: Crop growth and monitoring
+                       task_description: Monitor the growth of the crops in the dome structure and make any necessary adjustments to ensure optimal growth and yield
+                       is_atomic: True
+
+[L.a.N.A.] Completed planning task
+---------------------------------------------------------------- Sub-Action Complete ----------------------------------------------------------------
+
+---------------------------------------------------------------- Starting Sub-Action ----------------------------------------------------------------
+[L.a.N.A.] Planning task: Colonize Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Expand and develop the Martian settlement: Increase the size and capabilities of the Martian settlement, including the development of agriculture, industry, and scientific research capabilities...
+             └>Evaluating subtasks......
+             └>Planning task: Develop agriculture capabilities: Based on site survey results, implement new farming systems and techniques to improve food production and sustainability on Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Develop farming technology for Mars: Develop and test technology such as agricultural domes, automated farming equipment, and hydroponic systems that are tailored for Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Develop an automated farming system: Create and test a system of automated farming equipment for use in the agricultural domes on Mars...
+------------------------------------------------------------------------------------------------------------------------------------------------------
+[L.a.N.A.] Asking Task Splitter AI to plan task......
+[L.a.N.A.] AI returned the following subtasks: 
+               tasks:
+                   tasks[0]: 
+                       task_name: Research existing automated farming technologies
+                       task_description: Investigate current automated farming technologies and identify which systems could be adapted for use in the agricultural domes on Mars.
+                       is_atomic: True
+
+                   tasks[1]: 
+                       task_name: Design automated farming equipment for Martian conditions
+                       task_description: Design a system of automated farming equipment that can function in the unique conditions of the Martian environment.
+                       is_atomic: True
+
+                   tasks[2]: 
+                       task_name: Source materials for the farming system
+                       task_description: Identify and source materials that can withstand the harsh Martian atmosphere and are required for building the automated farming system.
+                       is_atomic: True
+
+                   tasks[3]: 
+                       task_name: Assemble and test automated farming equipment subsystems
+                       task_description: Create and test subsystems that make up the overall automated farming system, including soil additives, water delivery systems, and robotic plant maintenance and harvesting.
+                       is_atomic: False
+
+                   tasks[4]: 
+                       task_name: Integrate subsystems into a complete automated farming system
+                       task_description: Combine each automated farming equipment subsystem into a workable system for use in the Martian Agricultural domes.
+                       is_atomic: False
+
+                   tasks[5]: 
+                       task_name: Test completed automated farming system
+                       task_description: Ensure that the automated farming system is able to accomplish the goals specified for it, including maintaining crop health, regulating crop growth, and automating crop harvesting.
+                       is_atomic: True
+
+---------------------------------------------------------------- Starting Sub-Action ----------------------------------------------------------------
+[L.a.N.A.] Planning task: Colonize Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Expand and develop the Martian settlement: Increase the size and capabilities of the Martian settlement, including the development of agriculture, industry, and scientific research capabilities...
+             └>Evaluating subtasks......
+             └>Planning task: Develop agriculture capabilities: Based on site survey results, implement new farming systems and techniques to improve food production and sustainability on Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Develop farming technology for Mars: Develop and test technology such as agricultural domes, automated farming equipment, and hydroponic systems that are tailored for Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Develop an automated farming system: Create and test a system of automated farming equipment for use in the agricultural domes on Mars...
+             └>Evaluating subtasks......
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------- Starting Sub-Action ----------------------------------------------------------------
+[L.a.N.A.] Planning task: Colonize Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Expand and develop the Martian settlement: Increase the size and capabilities of the Martian settlement, including the development of agriculture, industry, and scientific research capabilities...
+             └>Evaluating subtasks......
+             └>Planning task: Develop agriculture capabilities: Based on site survey results, implement new farming systems and techniques to improve food production and sustainability on Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Develop farming technology for Mars: Develop and test technology such as agricultural domes, automated farming equipment, and hydroponic systems that are tailored for Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Develop an automated farming system: Create and test a system of automated farming equipment for use in the agricultural domes on Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Assemble and test automated farming equipment subsystems: Create and test subsystems that make up the overall automated farming system, including soil additives, water delivery systems, and robotic plant maintenance and harvesting....
+------------------------------------------------------------------------------------------------------------------------------------------------------
+[L.a.N.A.] Asking Task Splitter AI to plan task......
+[L.a.N.A.] AI returned the following subtasks: 
+               tasks:
+                   tasks[0]: 
+                       task_name: Assemble soil additive subsystem
+                       task_description: Gather necessary supplies and assemble soil additive subsystem, including fertilizer dispenser and pH level sensor.
+                       is_atomic: True
+
+                   tasks[1]: 
+                       task_name: Assemble water delivery subsystem
+                       task_description: Gather necessary supplies and assemble water delivery subsystem, including irrigation pipes, water tank, and sensors to monitor water level and flow rate.
+                       is_atomic: True
+
+                   tasks[2]: 
+                       task_name: Assemble robotic plant maintenance subsystem
+                       task_description: Gather necessary supplies and assemble robotic plant maintenance subsystem, including sensors to detect plant growth and health, pruning arm, and pesticide dispenser.
+                       is_atomic: True
+
+                   tasks[3]: 
+                       task_name: Assemble robotic harvesting subsystem
+                       task_description: Gather necessary supplies and assemble robotic harvesting subsystem, including sensors to detect ripeness of crops, cutting arm, and conveyor system to collect harvested crops.
+                       is_atomic: True
+
+                   tasks[4]: 
+                       task_name: Integrate subsystems
+                       task_description: Connect and integrate all subsystems together to create a working automated farming system.
+                       is_atomic: True
+
+                   tasks[5]: 
+                       task_name: Test automated farming system
+                       task_description: Run various tests to ensure the automated farming system works as intended and address any issues encountered.
+                       is_atomic: True
+
+---------------------------------------------------------------- Starting Sub-Action ----------------------------------------------------------------
+[L.a.N.A.] Planning task: Colonize Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Expand and develop the Martian settlement: Increase the size and capabilities of the Martian settlement, including the development of agriculture, industry, and scientific research capabilities...
+             └>Evaluating subtasks......
+             └>Planning task: Develop agriculture capabilities: Based on site survey results, implement new farming systems and techniques to improve food production and sustainability on Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Develop farming technology for Mars: Develop and test technology such as agricultural domes, automated farming equipment, and hydroponic systems that are tailored for Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Develop an automated farming system: Create and test a system of automated farming equipment for use in the agricultural domes on Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Assemble and test automated farming equipment subsystems: Create and test subsystems that make up the overall automated farming system, including soil additives, water delivery systems, and robotic plant maintenance and harvesting....
+             └>Evaluating subtasks......
+------------------------------------------------------------------------------------------------------------------------------------------------------
+[L.a.N.A.] Completed evaluating subtasks
+---------------------------------------------------------------- Sub-Action Complete ----------------------------------------------------------------
+[L.a.N.A.] Task can be completed with the following subtasks: 
+               tasks:
+                   tasks[0]: 
+                       task_name: Assemble soil additive subsystem
+                       task_description: Gather necessary supplies and assemble soil additive subsystem, including fertilizer dispenser and pH level sensor.
+                       is_atomic: True
+
+                   tasks[1]: 
+                       task_name: Assemble water delivery subsystem
+                       task_description: Gather necessary supplies and assemble water delivery subsystem, including irrigation pipes, water tank, and sensors to monitor water level and flow rate.
+                       is_atomic: True
+
+                   tasks[2]: 
+                       task_name: Assemble robotic plant maintenance subsystem
+                       task_description: Gather necessary supplies and assemble robotic plant maintenance subsystem, including sensors to detect plant growth and health, pruning arm, and pesticide dispenser.
+                       is_atomic: True
+
+                   tasks[3]: 
+                       task_name: Assemble robotic harvesting subsystem
+                       task_description: Gather necessary supplies and assemble robotic harvesting subsystem, including sensors to detect ripeness of crops, cutting arm, and conveyor system to collect harvested crops.
+                       is_atomic: True
+
+                   tasks[4]: 
+                       task_name: Integrate subsystems
+                       task_description: Connect and integrate all subsystems together to create a working automated farming system.
+                       is_atomic: True
+
+                   tasks[5]: 
+                       task_name: Test automated farming system
+                       task_description: Run various tests to ensure the automated farming system works as intended and address any issues encountered.
+                       is_atomic: True
+
+[L.a.N.A.] Completed planning task
+---------------------------------------------------------------- Sub-Action Complete ----------------------------------------------------------------
+
+---------------------------------------------------------------- Starting Sub-Action ----------------------------------------------------------------
+[L.a.N.A.] Planning task: Colonize Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Expand and develop the Martian settlement: Increase the size and capabilities of the Martian settlement, including the development of agriculture, industry, and scientific research capabilities...
+             └>Evaluating subtasks......
+             └>Planning task: Develop agriculture capabilities: Based on site survey results, implement new farming systems and techniques to improve food production and sustainability on Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Develop farming technology for Mars: Develop and test technology such as agricultural domes, automated farming equipment, and hydroponic systems that are tailored for Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Develop an automated farming system: Create and test a system of automated farming equipment for use in the agricultural domes on Mars...
+             └>Evaluating subtasks......
+             └>Planning task: Integrate subsystems into a complete automated farming system: Combine each automated farming equipment subsystem into a workable system for use in the Martian Agricultural domes....
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+...
